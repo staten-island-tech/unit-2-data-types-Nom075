@@ -38,7 +38,7 @@ test = "NA"
 
 
 
-def factor(x):
+""" def factor(x):
     value = []
     
     for i in range(1, x+1): 
@@ -48,5 +48,12 @@ def factor(x):
     print(value)
 
 number = int(input("Enter a number"))
-factor(number)
+factor(number) """
 
+
+
+def find_small(num1, num2):
+    small = min(x, y)
+    
+
+find_small(2,89)
