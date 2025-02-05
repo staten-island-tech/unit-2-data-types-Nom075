@@ -33,12 +33,20 @@ else:
 
 add("How do you only have", wallet, "$?") """
 
-test = NA
+test = "NA"
+
+
 
 
 def factor(x):
-    for i in x: 
-        test = x % i
-        if test == "0":
-             value.insert()
+    value = []
+    
+    for i in range(1, x+1): 
+       if not i == "0":
+            if x % i == 0:
+                value.append(i)
+    print(value)
+
+number = int(input("Enter a number"))
+factor(number)
 
