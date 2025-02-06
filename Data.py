@@ -52,8 +52,18 @@ factor(number) """
 
 
 
-def find_small(num1, num2):
-    small = min(num1, num2)
-    
 
-find_small(2,89)
+    
+def find_gcf(x,y):
+    small = min(x, y)
+    num1 = x
+    num2 = y
+    for i in range(1, small + 1): 
+        if x % i == 0 and y % i == 0:
+            gcf = i
+    return gcf, num1, num2
+
+gcf, num1, num2 = find_gcf(100, 125)
+
+
+print(f"The GCF of {num1} and {num2} is: {gcf}")
