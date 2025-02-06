@@ -53,7 +53,7 @@ factor(number) """
 
 
 def find_small(num1, num2):
-    small = min(x, y)
+    small = min(num1, num2)
     
 
 find_small(2,89)
